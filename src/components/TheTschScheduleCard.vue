@@ -129,7 +129,7 @@ export default {
       if (this.$_simulator_runningSettings === null) {
         return 1
       } else {
-        return this.$_simulator_runningSettings.tsch_slotframeLength
+        return this.$_simulator_runningSettings.exec_numMotes
       }
     },
     numChannels () {
